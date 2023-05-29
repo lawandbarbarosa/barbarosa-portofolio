@@ -1,0 +1,102 @@
+.app__navbar-untoggle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__navbar-left .h11{
+    font-size: 3rem;
+    font-weight: 700;
+     color: white;
+     letter-spacing:0.2rem;
+}
+
+.app__navbar-middle ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.app__navbar-middle ul li{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.app__navbar-right select{
+    background-color: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.app__toggle-icon{
+ position: absolute;
+ top: 48px;
+ left:13px;
+ color: white;
+ font-size: 1.5rem;
+ display: none;
+}
+
+.app__navbar-toggle{
+    width:200px;
+    height: 200px;
+    padding: 2rem;
+    position: absolute;
+    left:1rem;
+    display: none;
+    border-radius: 1rem;
+}
+
+.app__navbar-toggle ul{
+    background-color: none;
+    line-height: 40px;
+    padding: 2rem;
+}
+
+.app__navbar-toggle ul li{
+    color: white;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width:1100px) {
+    .app__navbar-left .h11{
+        font-size: 2.3rem;
+        font-weight: 700;
+         color: white;
+         letter-spacing:0.2rem;
+    }
+
+    .app__navbar-middle ul li{
+        color: white;
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .app__navbar-left .h11{
+        font-size: 2rem;
+        font-weight: 700;
+         color: white;
+         letter-spacing:0.2rem;
+         
+         align-self: center;
+    }
+
+    .app__navbar-middle ul{
+        display: none;
+    }
+
+    .app__toggle-icon{
+        display: block;
+       }
+
+       .app__navbar-toggle{
+        display: block;
+    }
+    
+}
+
+

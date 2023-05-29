@@ -1,0 +1,61 @@
+.app__project-header{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 20px;
+}
+
+.app__project-header button{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.app__project-contnt{
+    margin-top: 2rem;
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(400px,3fr));
+   gap: 2rem;
+   position: relative;
+   border-radius: 2rem;
+}
+
+.app__prject-content__item{
+    width: 400px;
+    height: 340px;
+   position: relative;
+   border-radius: 2rem;
+}
+
+.app__prject-content__item img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.app__project-content__description{
+    background-color: #212A3E;
+    border: 1px solid #526D82;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding: 1rem;
+}
+
+.app__project-content__description .h1{
+    font-size: 1.2rem;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .app__prject-content__item{
+        width: 340px;
+        height: 340px;
+       position: relative;
+       border-radius: 2rem;
+    }
+}

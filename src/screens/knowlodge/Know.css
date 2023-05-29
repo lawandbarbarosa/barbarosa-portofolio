@@ -1,0 +1,54 @@
+.drezh{
+    border: 1px solid #d9d9d94d;
+}
+
+.app__knowlodge-header{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.app__knowlodge-header button{
+    padding-left: 2rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.app__knowlodge-header button:hover{
+    border-bottom: 1px solid white;
+    border-radius: 1rem;
+}
+
+.app__knowlodge-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-top: 4rem;
+    width: 80%;
+}
+
+.app__know img{
+width: 170px;
+height: 170px;
+object-fit: contain;
+}
+
+
+@media screen and (max-width:900px) {
+    .app__know img{
+        width: 100px;
+        height: 120px;
+        object-fit: contain;
+        }
+
+        .app__knowlodge-content{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap:30px;
+            margin-top: 4rem;
+            width: 80%;
+            justify-content: center;
+        }
+}
